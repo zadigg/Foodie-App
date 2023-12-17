@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText for culinary journey -->
+    <EditText
+        android:id="@+id/editTextCulinaryJourney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Culinary Journey Details" />
+
+    <!-- EditText for favorite recipes -->
+    <EditText
+        android:id="@+id/editTextFavoriteRecipes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Favorite Recipes Details" />
+
+    <!-- EditText for food philosophy -->
+    <EditText
+        android:id="@+id/editTextFoodPhilosophy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Food Philosophy Details" />
+</LinearLayout>

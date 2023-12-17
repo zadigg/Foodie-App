@@ -1,0 +1,28 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="16dp">
+
+    <!-- Phone Call Button -->
+
+    <!-- Email Button -->
+
+    <Button
+        android:id="@+id/btnPhoneCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="158dp"
+        android:onClick="makePhoneCall"
+        android:text="Call Me" />
+
+    <Button
+        android:id="@+id/btnSendEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPhoneCall"
+        android:layout_marginTop="18dp"
+        android:onClick="sendEmail"
+        android:text="Send Email" />
+</RelativeLayout>

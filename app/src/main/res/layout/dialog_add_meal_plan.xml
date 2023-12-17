@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Day"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextBreakfast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Breakfast"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextLunch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Lunch"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextDinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Dinner"
+        android:inputType="text" />
+
+</LinearLayout>
